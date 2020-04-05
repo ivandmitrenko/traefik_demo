@@ -32,4 +32,6 @@ services:
       - "traefik.http.routers.nginx.rule=Host(`nginx.ta.org.ua`)"
       - "traefik.http.routers.nginx.entrypoints=web"
       - "traefik.port=80"
+    volumes:
+      - "./nginx/html:/usr/share/nginx/html:ro"
 
