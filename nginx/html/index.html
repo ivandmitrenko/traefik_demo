@@ -1,31 +1,527 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Welcome!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h3 style="text-align: center;">Hallo!</h3>
-<p style="text-align: justify;"><br />Es ist eine kleine Demonstration. Hier sehen Sie einen <a href="http://docker.com">Docker</a>, der Container 
-mit <a href="http://nginx.ta.org.ua">nginx</a> und <a href="http://whoami.ta.org.ua">whoami</a> betreibt. 
-Und da diese beiden Container den TCP-Port 80 verwenden, werden HTTP-Anfragen durch den <a href="http://www.ta.org.ua:8080/">Traefik-Reverse-Proxy</a> 
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Xman - Personal Portfolio Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i,400,400i,500,600,700,800,900" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/slicknav.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+		
+		<!-- Xman CSS -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+		
+
+		
+		<!-- Header Area -->
+		<header id="header" class="header">
+			<div class="header-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-2 col-xs-12">
+							<div class="logo">
+								<a href="index.html"><img src="img/it2.png" alt="logo.png"></a>
+							</div>
+						</div>
+						<div class="col-md-9 col-sm-10 col-xs-12">
+							<div class="mobile-menu"></div>
+							<nav class="navbar navbar-default">
+								<div class="collapse navbar-collapse">
+									<ul id="lang" class="nav navbar-nav">
+										<li><a>|</a></li>									
+										<li><a href="index_en.html">EN</a></li>
+										<li><a href="index.html">DE</a></li>
+										<li><a href="index_ru.html">RU</a></li>
+									</ul>	
+									<ul id="nav" class="nav navbar-nav">
+										<li class="current"><a href="#slider">Willkommen</a></li>
+										<li><a href="#service">Services</a></li>
+										<li><a href="#about">Über mich</a></li>
+										<li><a href="#skill">Skills</a></li>
+										<li><a href="#story">Story</a></li>
+										<li><a href="#latest-works">Portfolio</a></li>
+										<li><a href="#contact">Kontakt</a></li>
+									</ul>
+								
+								</div> 
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/ End Header Inner -->
+		</header>
+		<!-- End Header Area -->
+		
+		<!-- Slider Area -->
+		<section id="slider" class="slider" style="background-image:url('img/slider.jpg')">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="text">
+							<h1>Es ist eine kleine Demo</h1>
+							<p>Hier sehen Sie einen <a href="http://docker.com">DOCKER</a>, der Container
+mit <a href="http://nginx.ta.org.ua">NGINX</a> und <a href="http://whoami.ta.org.ua">WHOAMI</a> betreibt.
+Und da diese beiden Container den TCP-Port 80 verwenden, werden HTTP-Anfragen durch den <a href="http://www.ta.org.ua:8080/">Traefik-Reverse-Proxy</a>
 gesteuert.</p>
-<p>Die Quellcodes dieses Projekts k&ouml;nnen in meinem <a href="https://github.com/ivandmitrenko/traefik_demo">Git-Repository</a> eingesehen werden.</p>
-<p style="text-align: justify;">Die Demo l&auml;uft auf einer <a href="http://oracle.com">Oracle-Cloud-Hosting-Site</a>. Das RAM-Volumen der virtuellen Maschine betr&auml;gt 1 Gb.</p>
-<p style="text-align: justify;">&nbsp;</p>
-<p style="text-align: justify;">&nbsp;</p>
-<p style="text-align: justify;">
-<img src="ocloud.png" height="60" alt="" />
-<img src="docker.png" height="60" alt="" />
-<img src="nginx.png" height="60" alt="" />
-<img src="traefik.png" height="60" alt="" />
-<img src="git.png" height="60" alt="" />
-</p>
-</body>
+<p>Die Quellcodes dieses Projekts k&ouml;nnen in meinem <a href="https://github.com/ivandmitrenko/traefik_demo">Git-Repository</a> eingesehen werden.</p></p>
+							<div class="button">
+								<a href="#service" class="btn primary "><i class="fa fa-server"></i>Services ansehen</a>
+								<a href="#contact" class="btn"><i class="fa fa-phone"></i>Kontact</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Slider Area -->
+		
+
+		
+		<!-- Start service -->
+		<section id="service" class="service section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="section-title">
+							<h2>Laufende <span>services</span></h2>
+						</div> 
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+								<!-- single-service -->	
+								<div class="single-service">
+									<i class="fa fa-clone"></i>
+									<h5><a href="http://docker.com">Docker</a></h5>
+									<p>Docker ist eine offene Plattform für die Entwicklung, den Versand und den Betrieb von Anwendungen.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+								<!-- single-service -->	
+								<div class="single-service">
+									<i class="fa fa-sitemap"></i>
+									<h5><a href="http://www.ta.org.ua:8080/">Traefik</a></h5>
+									<p>Traefik ist ein Open-Source-Edge-Router, der das Veröffentlichen Ihrer Services zu einer unterhaltsamen und einfachen Erfahrung macht. </p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+								<!-- single-service -->	
+								<div class="single-service">
+									<i class="fa fa-cloud"></i>
+									<h5><a href="http://oracle.com">Oracle cloud</a></h5>
+									<p>Die Oracle Cloud Infrastructure bietet die Elastizität und Effizienz einer öffentlichen Cloud.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+								<!-- single-service -->	
+								<div class="single-service">
+									<i class="fa fa-server"></i>
+									<h5><a href="http://nginx.ta.org.ua">Nginx</a></h5>
+									<p>NGINX ist ein kostenloser, quelloffener, hochleistungsfähiger HTTP-Server und Reverse-Proxy sowie ein IMAP/POP3-Proxy-Server.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
+								<!-- single-service -->	
+								<div class="single-service">
+									<i class="fa fa-git"></i>
+									<h5><a href="https://github.com/ivandmitrenko/traefik_demo">Git</a></h5>
+									<p>Git ist ein freies und quelloffenes verteiltes Versionskontrollsystem, das entwickelt wurde, um Projekte schnell und effizient abzuwickeln.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+								<!-- single-service -->	
+								<div class="single-service">
+									<i class="fa fa-database"></i>
+									<h5>Database</h5>
+									<p>Ein Datenbankmanagementsystem (DBMS) ist ein Softwarepaket, das dazu dient, Daten in einer Datenbank zu definieren, zu manipulieren, abzurufen und zu verwalten.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End service -->	
+
+		<!-- Start about -->
+		<section id="about" class="about">
+			<div class="container">
+				<div class="row">
+					<div class="about-content">
+						<div class="col-md-2 col-sm-2 col-xs-12">
+							<div class="section-title">
+								<h2>Über <span>mich</span></h2>
+							</div>
+						</div>
+						<div class="col-md-6  col-sm-6 col-xs-12">
+							<div class="single-about">
+								<p class="bolt">Hello! Ich bin Ivan Dmytrenko, systemadministrator.</p>
+								<p>Heute kann ich Ihrem Unternehmen meine Dienste als erfahrener und zielstrebiger Mitarbeiter anbieten.
+								<p>In drei Jahren meines Lebens in Deutschland habe ich die Sprache bis C1 gelernt und auch mein Ingenieurstudium in Deutschland anerkannt. </p>
+								<p>Ich nutze die vorübergehende Flaute auf dem Arbeitsmarkt und lerne neue Technologien kennen, die heute am meisten gefragt sind. Diese Website ist eine Demonstration einiger meiner neuen Fähigkeiten. </p>
+								<p class="bolt">Wenn Sie an meiner Kandidatur interessiert sind, sehen Sie sich bitte meinen Lebenslauf an, indem Sie auf den untenstehenden Link klicken.</p>
+								<div class="cv">
+									<a href="lebenslauf.pdf">download cv</a>
+								</div>
+								<div class="social">
+									<ul>
+										<li><a href="https://www.linkedin.com/in/ivan-dmitrenko/"><i class="fa fa-linkedin"></i></a></li>
+										<li><a href="https://github.com/ivandmitrenko/traefik_demo"><i class="fa fa-git"></i></a></li>
+										<li><a href="https://www.xing.com/profile/Ivan_Dmytrenko/cv"><i class="fa fa-xing"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<div class="image">
+								<img src="img/myfoto2.jpg" alt="#">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End about -->	
+		
+		<!-- Start skill -->
+		<section id="skill" class="skill section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-12 col-xs-12">
+						<div class="section-title">
+							<h2>meine <span>Skills</span></h2>
+						</div>
+					</div>
+					<div class="col-md-10 col-sm-12 col-xs-12">
+						<div class="skill-head">
+							<div class="row">
+								<div class="col-md-6 col-sm-12 col-xs-12">
+									<div class="skill-content">
+										<h3>DASS ICH WEIß UND KANN</h3>
+										<p><b>Die beruflichen Kenntnisse und Fähigkeiten eines Spezialisten in IT spielen eine entscheidende Rolle.</b></p>
+										<p>Jedes Jahr erscheinen neue Technologien, da sich die IT-Welt aktiv weiterentwickelt. Deshalb ist der Erwerb neuer Kenntnisse mein Berufsmotto während aller 15 Jahre Arbeit in der Branche.</p>
+										<p><b>Eine vollständige Liste meiner Fähigkeiten finden Sie in meinem Lebenslauf.</b></p>
+									</div>
+								</div>
+								<div class="col-md-6 col-sm-12 col-xs-12">
+									<div class="skill-main">
+										<div class="single-skill">
+											<div class="skill-title">
+												<h4>SYSTEM ADMINISTRATION</h4>
+											</div>
+											<div class="progress two">
+												<div class="progress-bar" data-percent="95">
+													<span>95%</span>
+												</div>
+											</div>
+										</div>
+										<div class="single-skill">
+											<div class="skill-title">
+												<h4>DATABASES</h4>
+											</div>
+											<div class="progress two">
+												<div class="progress-bar" data-percent="85">
+													<span>85%</span>
+												</div>
+											</div>
+										</div>
+										<div class="single-skill">
+											<div class="skill-title">
+												<h4>VIRTUALISATION</h4>
+											</div>
+											<div class="progress two">
+												<div class="progress-bar" data-percent="80">
+													<span>80%</span>
+												</div>
+											</div>
+										</div>
+										<div class="single-skill">
+											<div class="skill-title">
+												<h4>CLOUDS</h4>
+											</div>
+											<div class="progress two">
+												<div class="progress-bar" data-percent="70">
+													<span>70%</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End skill -->	
+		
+		<!-- Start Story -->
+		<section id="story" class="story section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-title">
+							<h2>meine <span>Geschichte</span></h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+						<div class="story-content">
+							<!-- single-story -->
+							<div class="single-story">
+								<span class="year wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.4s">2019</span>
+								<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+									<h3>Deutsch Sprach- und Integrationskurs</h3>
+									<p>Student</p>
+									<p class="p2">Deutsch Sprach- und Integrationskurs, VHS, Schweinfurt, Abschluss B1. IHK Deutschkurs B2 für Beruf, Abschluss B2. GBF Deutschkurs C1, Abschluss C1.</p>
+							</div>
+							<!-- single-story -->
+							<div class="single-story">
+								<span class="year wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.6s">2017</span>
+								<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+									<h3>Magma GmbH</h3>
+									<p>IT Abteilungsleiter</p>
+									<p class="p2">
+									<dl>
+									  <dt>Unternehmensweite ERP CSoft Technologies Systemimplementierung (als IT-Abteilungsleiter, 7 Personen)</dt>
+									  <dd> - Untersuchung von Unternehmensworkflows</dd>
+									  <dd> - Algorithmisierung der Arbeit von Mitarbeitern in Übereinstimmung mit den Prinzipien von ISO9001</dd>
+									  <dd> - Entwicklung von technischen Aufgaben für Programmierer von Modulen des Systems ERP CSoft Technologies</dd>
+									  <dd> - Kontrolle der Entwicklung von Systemmodulen</dd>
+									  <dd> - Einführung von Systemmodulen in den Abteilungen des Unternehmens</dd>
+									</dl>
+									</p>
+								</div>
+							</div>
+							<!-- single-story -->
+							<div class="single-story">
+								<span class="year wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.8s">2014</span>
+								<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.8s">
+									<h3>Selbstständig</h3>
+									<p>IT Outsorser</p>
+									<p class="p2">Arbeit als IT Outsourcer unter Vertrag in verschiedenen Annahmen und Organisationen.</p>
+								</div>
+							</div>
+							<!-- single-story -->
+							<div class="single-story">
+								<span class="year wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="1s">2012</span>
+								<div class="inner-content wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1s">
+									<h3>Magma GmbH</h3>
+									<p>Systemadministrator</p>
+									<p class="p2">Eine breite Palette von Aufgaben in den Bereichen Benutzerunterstützung, Software-Implementierung, Netzwerke und Server durchführen.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End story -->	
+		
+		<!-- Latest Works -->
+		<section id="latest-works" class="latest-works section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="section-title">
+							<h2>mein <span>Portfolio</span></h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<!-- Project Nav -->
+						<div class="works-menu wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+							<ul>
+								<li class="active" data-filter="*"><i class="fa fa-tasks"></i>All Works</li>
+								<li data-filter=".admin"><i class="fa fa-laptop"></i>SYSTEM ADMINISTRATION</li>
+								<li data-filter=".develop"><i class="fa fa-mobile"></i>App Development</li>
+								<li data-filter=".dbs"><i class="fa fa-database"></i>Databases</li>
+								<li data-filter=".virtual"><i class="fa fa-server"></i>VIRTUALISATION</li>
+								<li data-filter=".nets"><i class="fa fa-wifi"></i>Networks</li>
+							</ul>
+						</div>
+						<!--/ End Project Nav -->
+					</div>
+				</div>
+				<div class="row">
+					<div class="isotop-active">
+						<div class="col-md-4 col-sm-4 col-xs-12 admin dbs virtual">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf1.jpg" alt="#">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">ERP CSoft Technologies Systemimplementierung</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 develop dbs">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf2.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">Automatisierungssystem der Speditionsunternehmen Entwicklung und Implementierung</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 develop dbs">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf3.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">Gehaltsberechnungsprogramm entwicklung</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12  admin virtual">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf4.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">Server-Problemanalyse und Upgrades</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12  admin virtual">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf5.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">Citrix XEN Server-basierte Virtualisierung</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12  admin">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf6.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">Microsoft AD, Fileserver, Implementierung von Terminaldiensten</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 admin nets">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf7.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">Eröffnung</a></h4>
+									<div class="link"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12 admin nets">
+							<!-- single-work -->
+							<div class="single-work">
+								<img src="img/pf8.jpg" alt="">
+								<div class="works-hover">
+									<h4><a href="pf-2colum.html">komplexe Prüfung von Systemen</a></h4>
+									<div class="link"><a href="portfolio-single.html"></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Works -->
+	
+	
+		<!-- Contact -->
+		<section id="contact" class="contact section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-12 col-xs-12">
+						<div class="contact-info">
+							<h4>Kontakt Info</h4>
+							<p>Ich bin immer da, um Ihre Fragen und Anregungen zu beantworten.</p>
+							
+							<span><i class="fa fa-phone-square"></i>+49 160 590-84-78</span>
+							<span><i class="fa fa-map-marker"></i>Schweinfurt, Ignaz-Schön-Straße, 26</span>
+							<span><i class="fa fa-envelope"></i><a href="#">ivan.dmitrenko@gmail.com</a></span>
+							<span><i class="fa fa-globe"></i><a href="#">www.ta.org.ua</a></span>
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12 ">
+						<div class="form-head">
+							<form class="form" action="#">
+								<div class="form-group">
+									<input name="name" type="text" placeholder="Name eingeben">
+								</div>
+								<div class="form-group">
+									<input name="email" type="email" placeholder="E-Mail eingeben">
+								</div>
+								<div class="form-group">
+									<textarea name="message" placeholder="Nachricht eingeben"></textarea>
+								</div>
+								<div class="form-group">
+									<div class="button">
+										<button type="submit" class="btn primary">senden</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/ End Contact -->
+	
+		
+		<!-- Footer -->
+		<footer id="footer" class="footer section">
+			<div class="footer-top">
+
+			</div>
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p>© 2018 Distributed by <a href="https://themewagon.com/">ThemeWagon</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--/ End Footer -->
+		
+        <script src="js/jquery.min.js">  </script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nav.js"></script>
+        <script src="js/jquery.slicknav.min.js"></script>
+        <script src="js/easing.min.js"></script>
+		<script src="js/jquery-appear.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+		<script src="js/jquery.counterup.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0RqLa90WDfoJedoE3Z_Gy7a7o8PCL2jw"></script>
+        <script type="text/javascript" src="js/gmaps.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
